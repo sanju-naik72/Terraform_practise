@@ -42,11 +42,11 @@ module "infrastructure"{
 
     /*-----Bastion Host-----------*/
     
-    bastion-ami = "ami-0851b76e8b1bce90b"
+    bastion-ami = "ami-kfjdsvjfbsdhf"
     bastion-type = "t2.large"
 
     /*---------vpc peering------------*/
-    peer_owner = "576417314557"
+    peer_owner = "xxxxxxxxxxxx"
     peer_vpc_id = "vpc-07a49c33b2ba4b69a"
     peer_region = "ap-south-1"
     peer_cidr = "192.168.0.0/28"
